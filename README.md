@@ -9,5 +9,6 @@ Dentro del método `main`, desarrollé la siguiente lógica:
 3. Comprobé por consola el estado inicial (que por defecto en Java es `false`, es decir, apagado), luego llamé al método para encenderlo, verifiqué el cambio de estado, lo volví a apagar y realicé una comprobación final.
 
 Ejecución en consola
-<img width="1366" height="721" alt="{0342E28B-E492-4914-BBE6-17A71556D588}" src="https://github.com/user-attachments/assets/77766fce-9a74-4c70-886e-378d25339b41" />
+<img width="1366" height="720" alt="{AAC24BF5-DDA3-4606-B6F0-4D05238A4C4A}" src="https://github.com/user-attachments/assets/374d534d-89b0-43e8-87d9-62bd93307190" />
+
 
