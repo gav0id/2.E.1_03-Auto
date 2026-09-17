@@ -1,4 +1,4 @@
-public class Auto{
+public class Auto {
     String marca;
     String modelo;
     boolean encendido;
@@ -7,28 +7,34 @@ public class Auto{
         this.modelo = modelo;
         this.marca = marca;
     }
-    public void encender(){
+
+    public void encender() {
         encendido = true;
         System.out.println("El " + marca + " " + modelo + " esta encendido");
     }
-    public void apagar(){
+
+    public void apagar() {
         encendido = false;
         System.out.println("El " + marca + " " + modelo + " esta apagado");
     }
-    public void mostrarEstado(){
+
+    public void mostrarEstado() {
         if (encendido)
             System.out.println("El " + marca + " " + modelo + " esta prendido");
         else
             System.out.println("El " + marca + " " + modelo + " esta apagado");
     }
+}
+
+public class Main {
     public static void main(String[] args){
 
         Auto auto1 = new Auto("Corsa", "Chevrolet");
 
-            auto1.mostrarEstado();
-            auto1.encender();
-            auto1.mostrarEstado();
-            auto1.apagar();
-            auto1.mostrarEstado();
-        }
+        auto1.mostrarEstado();
+        auto1.encender();
+        auto1.mostrarEstado();
+        auto1.apagar();
+        auto1.mostrarEstado();
+    }
 }
